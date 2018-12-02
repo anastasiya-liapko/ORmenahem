@@ -1,0 +1,143 @@
+.header
+  background-image: url(../img/header-background.png)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+.header__container
+  position: relative
+  display: flex
+  justify-content: center
+
+.header__title
+  height: 353px
+  
+.header__image
+  display: flex
+  justify-content: center
+  align-items: center
+  height: auto
+
+.header_main
+  .header__container
+    padding: 0 15px
+  .header__image
+    position: absolute
+  .header__image_boy
+    width: 25%
+    left: 20px
+    bottom: -20px
+  .header__image_girl
+    width: 17%
+    right: 80px
+    bottom: 0
+.header__title_main
+  width: 700px
+  display: flex
+  flex-direction: column
+  align-items: center
+  p
+    font-family: $title-font
+    font-size: 2.25rem
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.08
+    letter-spacing: 0.1px
+    text-align: center
+    color: #ffffff
+    text-transform: uppercase
+  span
+    white-space: nowrap
+  div
+    padding-bottom: 20px
+
+.header_page
+  .header__container
+    display: flex
+    justify-content: space-between
+    width: 91%
+    margin: 0 auto
+  .header__image
+    position: relative
+    margin-top: auto
+  .header__image_boy
+    width: 335px
+  .header__image_girl
+    width: 229px
+.header__title_page
+  display: flex
+  align-items: center
+  font-family: $title-font
+  font-size: 70px
+  font-weight: normal
+  font-style: normal
+  font-stretch: normal
+  line-height: 1
+  letter-spacing: 0.1px
+  text-align: center
+  color: #ffffff
+  white-space: nowrap
+  text-transform: uppercase
+
+@media(max-width: 1200px)
+
+  .header__title
+    height: auto
+
+  .header_page
+    .header__container
+      flex-wrap: wrap
+      justify-content: space-around
+    .header__image_boy
+      order: 2
+    .header__image_girl
+      order: 3
+      padding-left: 6vw
+  .header__title_page
+    order: 1
+    width: 100%
+    margin-top: 5vw
+    margin-bottom: 5vw
+    font-size: 7vw
+    p
+      margin: 0 auto
+
+  .header_page
+    .header__image_boy
+      width: 30%
+    .header__image_girl
+      width: 22%
+
+
+@media(max-width: 992px)
+
+  .header_main
+    .header__image
+      display: none
+
+@media(max-width: 767px)
+
+  .header_page
+    .header__image_boy
+      width: 45%
+    .header__image_girl
+      width: 32%
+
+@media(max-width: 576px)
+
+  .header__title_main
+    p
+      font-size: 1.6rem
+    div
+      width: 80%
+
+  .header_page
+    .header__image_boy
+      order: 1
+    .header__image_girl
+      order: 3
+    .header__title
+      order: 2
+      font-size: 9vw
+

@@ -1,0 +1,170 @@
+.menu__item
+  &:hover .btn
+    cursor: pointer
+    filter: brightness(120%)
+  &:active .btn
+    filter: brightness(105%)
+
+.menu__item_green
+  &:hover .btn_green
+    filter: brightness(110%)
+  &:hover .descr
+    color: rgb(176, 201, 28)
+  &:active .btn_green
+    filter: brightness(105%)
+  &:active .descr
+    color: lighten(rgba(176, 201, 28, 0.68), 20%)
+
+.menu__item_orange
+  &:hover .descr
+    color: rgb(240, 149, 3)
+  &:active .descr
+    color: lighten(rgba(240, 149, 3, 0.68), 20%)
+
+.menu__item_blue
+  &:hover .descr
+    color: rgb(22, 121, 170)
+  &:active .descr
+    color: lighten(rgba(22, 121, 170, 0.68), 20%)
+
+.menu__item_red
+  &:hover .btn_red
+    background-color: lighten(rgb(230, 63, 50), 5%)
+    filter: brightness(120%)
+  &:hover .descr
+    color: rgb(230, 63, 50)
+  &:active .btn_red
+    filter: brightness(100%)
+  &:active .descr
+    color: lighten(rgba(230, 63, 50, 0.68), 20%)
+
+.menu__item_purple
+  &:hover .descr
+    color: rgb(30, 59, 147)
+  &:active .descr
+    color: lighten(rgba(30, 59, 147, 0.68), 20%)
+
+.menu__item_black
+  &:hover .btn_black
+    background-color: lighten(rgb(26, 23, 26), 5%)
+    filter: brightness(150%)
+  &:hover .descr
+    color: lighten(rgb(26, 23, 26), 40%)
+  &:active .btn_black
+    filter: brightness(105%)
+  &:active .descr
+    color: rgba(26, 23, 26, 0.68)
+
+// .menu__item_small
+//   &:hover .btn_small
+//     border-width: 12px
+//   &:active .btn_small
+//     border-width: 14px
+
+// .enter
+//   .btn_green
+//     &:hover 
+//       background-color: lighten(rgb(176, 201, 28), 1%)
+//       border: solid 21px lighten(rgba(176, 201, 28, 0.68), 20%)
+//       box-shadow: 0 0 0 2px darken(rgb(176, 201, 28), 2%) inset, 0 1px 1px darken(rgb(176, 201, 28), 10%)
+//       filter: brightness(110%)
+//     &:active
+//       border: solid 23px lighten(rgba(176, 201, 28, 0.68), 20%)
+//       box-shadow: 0 0 0 3px darken(rgb(176, 201, 28), 2%) inset, 0 1px 1px darken(rgb(176, 201, 28), 10%)
+//       background-color: darken(rgb(176, 201, 28), 2%)
+//       filter: brightness(105%)
+
+//   .btn_orange
+//     &:hover
+//       background-color: lighten(rgb(240, 149, 3), 1%)
+//       border: solid 21px lighten(rgba(240, 149, 3, 0.68), 20%)
+//       box-shadow: 0 0 0 2px darken(rgb(240, 149, 3), 2%) inset, 0 1px 1px darken(rgb(240, 149, 3), 10%)
+//     &:active
+//       border: solid 23px lighten(rgba(240, 149, 3, 0.68), 20%)
+//       box-shadow: 0 0 0 3px darken(rgb(240, 149, 3), 2%) inset, 0 1px 1px darken(rgb(240, 149, 3), 10%)
+//       background-color: darken(rgb(240, 149, 3), 2%)
+
+//   .btn_blue
+//     &:hover
+//       background-color: lighten(rgb(22, 121, 170), 1%)
+//       border: solid 21px lighten(rgba(22, 121, 170, 0.68), 20%)
+//       box-shadow: 0 0 0 2px darken(rgb(22, 121, 170), 2%) inset, 0 1px 1px darken(rgb(22, 121, 170), 10%)
+//     &:active
+//       border: solid 23px lighten(rgba(22, 121, 170, 0.68), 20%)
+//       box-shadow: 0 0 0 3px darken(rgb(22, 121, 170), 2%) inset, 0 1px 1px darken(rgb(22, 121, 170), 10%)
+//       background-color: darken(rgb(22, 121, 170), 2%)
+
+//   .btn_black
+//     &:hover 
+//       background-color: lighten(rgb(26, 23, 26), 1%)
+//       border: solid 21px lighten(rgba(26, 23, 26, 0.68), 20%)
+//       box-shadow: 0 0 0 2px darken(rgb(26, 23, 26), 2%) inset, 0 1px 1px darken(rgb(26, 23, 26), 10%)
+//       filter: brightness(150%)
+//     &:active
+//       border: solid 23px lighten(rgba(26, 23, 26, 0.68), 20%)
+//       box-shadow: 0 0 0 3px darken(rgb(26, 23, 26), 2%) inset, 0 1px 1px darken(rgb(26, 23, 26), 10%)
+//       background-color: darken(rgb(26, 23, 26), 2%)
+//       filter: brightness(105%)
+
+//   .btn_red
+//     &:hover
+//       background-color: lighten(rgb(230, 63, 50), 1%)
+//       border: solid 21px lighten(rgba(230, 63, 50, 0.68), 20%)
+//       box-shadow: 0 0 0 2px darken(rgb(230, 63, 50), 2%) inset, 0 1px 1px darken(rgb(230, 63, 50), 10%)
+//     &:active
+//       border: solid 23px lighten(rgba(230, 63, 50, 0.68), 20%)
+//       box-shadow: 0 0 0 3px darken(rgb(230, 63, 50), 2%) inset, 0 1px 1px darken(rgb(230, 63, 50), 10%)
+//       background-color: darken(rgb(230, 63, 50), 2%)
+
+//   .btn_purple
+//     &:hover
+//       background-color: lighten(rgb(30, 59, 147), 1%)
+//       border: solid 21px lighten(rgba(30, 59, 147, 0.68), 20%)
+//       box-shadow: 0 0 0 2px darken(rgb(30, 59, 147), 2%) inset, 0 1px 1px darken(rgb(30, 59, 147), 10%)
+//     &:active
+//       border: solid 23px lighten(rgba(30, 59, 147, 0.68), 20%)
+//       box-shadow: 0 0 0 3px darken(rgb(30, 59, 147), 2%) inset, 0 1px 1px darken(rgb(30, 59, 147), 10%)
+//       background-color: darken(rgb(30, 59, 147), 2%)
+
+// @media(max-width: 576px)
+
+//   .enter
+
+//     .btn_green
+//       &:hover
+//         border: solid 11px lighten(rgba(176, 201, 28, 0.68), 20%)
+//       &:active
+//         border: solid 13px lighten(rgba(176, 201, 28, 0.68), 20%)
+
+//     .btn_orange
+//       &:hover
+//         border: solid 11px lighten(rgba(240, 149, 3, 0.68), 20%)
+//       &:active
+//         border: solid 13px lighten(rgba(240, 149, 3, 0.68), 20%)
+
+//     .btn_blue
+//       &:hover
+//         border: solid 11px lighten(rgba(22, 121, 170, 0.68), 20%)
+//       &:active
+//         border: solid 13px lighten(rgba(22, 121, 170, 0.68), 20%)
+
+//     .btn_black
+//       &:hover
+//         border: solid 11px lighten(rgba(26, 23, 26, 0.68), 20%)
+//       &:active
+//         border: solid 13px lighten(rgba(26, 23, 26, 0.68), 20%)
+
+//     .btn_red
+//       &:hover
+//         border: solid 11px lighten(rgba(230, 63, 50, 0.68), 20%)
+//       &:active
+//         border: solid 13px lighten(rgba(230, 63, 50, 0.68), 20%)
+
+//     .btn_purple
+//       &:hover
+//         border: solid 11px lighten(rgba(30, 59, 147, 0.68), 20%)
+//       &:active
+//         border: solid 13px lighten(rgba(30, 59, 147, 0.68), 20%)
+
+
+

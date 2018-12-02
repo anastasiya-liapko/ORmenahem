@@ -1,0 +1,103 @@
+.item
+  position: relative
+  width: 213px
+  border-radius: 100%
+  box-sizing: border-box
+  div
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    display: flex
+    justify-content: center
+    align-items: center
+  span
+    font-size: 100px
+
+.item::before
+  content: ""
+  display: block
+  padding-top: 100%
+
+.item_green
+  background-color: rgb(176, 201, 28)
+  // box-shadow: 0px 0px 0px 22px lighten(rgba(176, 201, 28, 0.68), 20%) inset
+  border: 22px solid lighten(rgba(176, 201, 28, 0.68), 20%)
+
+.item_orange
+  background-color: rgb(240, 149, 3)
+  // box-shadow: 0px 0px 0px 22px lighten(rgba(240, 149, 3, 0.68), 20%) inset
+  border: 22px solid lighten(rgba(240, 149, 3, 0.68), 20%)
+
+.item_blue
+  background-color: rgb(22, 121, 170)
+  // box-shadow: 0px 0px 0px 22px lighten(rgba(22, 121, 170, 0.68), 30%) inset
+  border: 22px solid lighten(rgba(22, 121, 170, 0.68), 20%)
+
+.item_black
+  background-color: rgb(26, 23, 26)
+  // box-shadow: 0px 0px 0px 22px lighten(rgba(26, 23, 26, 0.68), 30%) inset
+  border: 22px solid lighten(rgba(26, 23, 26, 0.68), 20%)
+  
+.item_red
+  background-color: rgb(230, 63, 50)
+  // box-shadow: 0px 0px 0px 22px lighten(rgba(26, 23, 26, 0.68), 30%) inset
+  border: 22px solid lighten(rgba(230, 63, 50, 0.68), 20%)
+
+.item_purple
+  background-color: rgb(30, 59, 147)
+  // box-shadow: 0px 0px 0px 22px lighten(rgba(26, 23, 26, 0.68), 30%) inset
+  border: 22px solid lighten(rgba(30, 59, 147, 0.68), 20%)
+
+.item_small
+  width: 127px
+  border-width: 13px
+  span
+    font-size: 60px
+
+  
+@media(max-width: 1200px)
+
+  .item_center
+    margin-left: auto
+    margin-right: auto
+
+@media(max-width: 678px)
+
+  .item
+    width: 70%
+
+@media(max-width: 576px)
+
+  .item
+    margin-bottom: 12px
+    span
+      font-size: 15vw
+
+  .item_green
+    border: 12px solid lighten(rgba(176, 201, 28, 0.68), 20%)
+
+  .item_orange
+    border: 12px solid lighten(rgba(240, 149, 3, 0.68), 20%)
+
+  .item_blue
+    border: 12px solid lighten(rgba(22, 121, 170, 0.68), 30%)
+
+  .item_black
+    border: 12px solid lighten(rgba(26, 23, 26, 0.68), 30%)
+
+  .item_red
+    border: 12px solid lighten(rgba(230, 63, 50, 0.68), 20%)
+
+  .item_purple
+    border: 12px solid lighten(rgba(30, 59, 147, 0.68), 20%)
+
+  .item_small
+    span
+      font-size: 13vw
+
+
+
+
+    
